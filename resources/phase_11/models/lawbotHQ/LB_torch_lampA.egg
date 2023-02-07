@@ -1,0 +1,886 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg -o LB_torch_lampA.egg LB_torch_lampA.bam"
+}
+<Texture> lawbotHQ_palette_3cmla_9 {
+  "/c/TTRewrote4.0/Toontown-Rewrote/resources/phase_11/models/lawbotHQ/phase_11/maps/lawbotHQ_palette_3cmla_9.jpg"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> lawbotHQ_palette_2tmla_1 {
+  "/c/TTRewrote4.0/Toontown-Rewrote/resources/phase_11/models/lawbotHQ/phase_11/maps/lawbotHQ_palette_2tmla_1.jpg"
+  <Scalar> alpha-file { "/c/TTRewrote4.0/Toontown-Rewrote/resources/phase_11/models/lawbotHQ/phase_11/maps/lawbotHQ_palette_2tmla_1_a.rgb" }
+  <Scalar> format { luminance_alpha }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> LB_torch_lampA.egg {
+  <Vertex> 0 {
+    -0.00494715012609959 0.676882028579712 1.69003999233246
+    <UV> { 0.820354998111725 0.178464591503143 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -0.416225999593735 -0.474216014146805 1.69003999233246
+    <UV> { 0.950605869293213 0.0541252419352531 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -0.628747999668121 0.250739991664886 1.69003999233246
+    <UV> { 0.848142147064209 0.0557239688932896 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    0.0626548007130623 -0.0917159989476204 2.00264000892639
+    <UV> { 0.614326596260071 0.467865079641342 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 4 {
+    -0.0896859988570213 0.0258627999573946 2.00264000892639
+    <UV> { 0.569705963134766 0.426489770412445 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 5 {
+    -0.0562286004424095 -0.0882676020264626 2.00264000892639
+    <UV> { 0.60350900888443 0.427261382341385 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 6 {
+    0.593104004859924 0.215296998620033 1.69003999233246
+    <UV> { 0.905645668506622 0.25272411108017 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 7 {
+    0.338919013738632 -0.496120005846024 1.69003999233246
+    <UV> { 0.986144959926605 0.175878033041954 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 8 {
+    0.10267099738121 0.0202831998467445 2.00264000892639
+    <UV> { 0.587208867073059 0.4921875 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 9 {
+    0.00851965975016356 0.0929509028792381 2.00264000892639
+    <UV> { 0.55963146686554 0.466615408658981 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 10 {
+    0.10267099738121 0.0202831998467445 2.00264000892639
+    <UV> { 0.679239153862 0.0341852642595768 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 11 {
+    0.593104004859924 0.215296998620033 1.69003999233246
+    <UV> { 0.788256466388702 0.0341852642595768 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 12 {
+    0.00851965975016356 0.0929509028792381 2.00264000892639
+    <UV> { 0.679239153862 0.123743295669556 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 13 {
+    -0.00494715012609959 0.676882028579712 1.69003999233246
+    <UV> { 0.788256466388702 0.123742811381817 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 14 {
+    -0.0896859988570213 0.0258627999573946 2.00264000892639
+    <UV> { 0.679239153862 0.213300839066505 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 15 {
+    -0.628747999668121 0.250739991664886 1.69003999233246
+    <UV> { 0.788256466388702 0.213300839066505 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 16 {
+    -0.0562286004424095 -0.0882676020264626 2.00264000892639
+    <UV> { 0.679239153862 0.276360660791397 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 17 {
+    -0.416225999593735 -0.474216014146805 1.69003999233246
+    <UV> { 0.788256466388702 0.276360660791397 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 18 {
+    0.0626548007130623 -0.0917159989476204 2.00264000892639
+    <UV> { 0.679239153862 0.379864811897278 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 19 {
+    0.338919013738632 -0.496120005846024 1.69003999233246
+    <UV> { 0.788256466388702 0.379864811897278 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 20 {
+    0.10267099738121 0.0202831998467445 2.00264000892639
+    <UV> { 0.679239153862 0.449897676706314 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 21 {
+    0.593104004859924 0.215296998620033 1.69003999233246
+    <UV> { 0.788256466388702 0.449897676706314 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 22 {
+    0.00297742011025548 0.102646000683308 1.73618996143341
+    <UV> { 0.646224141120911 0.417317658662796 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 23 {
+    0.0985419973731041 0.0288875997066498 1.73618996143341
+    <UV> { 0.619863927364349 0.4173404276371 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 24 {
+    0.00247810990549624 0.124295003712177 1.57617998123169
+    <UV> { 0.646223127841949 0.393288791179657 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 25 {
+    0.116724997758865 0.0361176989972591 1.57617998123169
+    <UV> { 0.619862973690033 0.393312036991119 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 26 {
+    0.00265549006871879 0.042722400277853 1.47642004489899
+    <UV> { 0.646948277950287 0.37671685218811 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 27 {
+    0.0442822016775608 0.0105942999944091 1.47642004489899
+    <UV> { 0.621401369571686 0.376738667488098 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 28 {
+    0.00265551009215415 0.042722400277853 0.212620005011559
+    <UV> { 0.646940529346466 0.0786722004413605 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 29 {
+    0.0442822016775608 0.0105942999944091 0.212620005011559
+    <UV> { 0.621393620967865 0.0786944851279259 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 30 {
+    0.0045154900290072 0.106845997273922 0.137075006961823
+    <UV> { 0.645905435085297 0.0615752190351486 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 31 {
+    0.105842001736164 0.0286404993385077 0.137075006961823
+    <UV> { 0.61925995349884 0.0615979842841625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 32 {
+    0.0045154900290072 0.106845997273922 0.0363476015627384
+    <UV> { 0.645904898643494 0.038895957171917 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 33 {
+    0.105842001736164 0.0286404993385077 0.0363476015627384
+    <UV> { 0.619258940219879 0.038895957171917 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 34 {
+    -0.0967018008232117 0.0345509983599186 1.73618996143341
+    <UV> { 0.534947454929352 0.417414039373398 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 35 {
+    0.00297742011025548 0.102646000683308 1.73618996143341
+    <UV> { 0.509950876235962 0.417435854673386 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 36 {
+    -0.116686999797821 0.0428882017731667 1.57617998123169
+    <UV> { 0.534946620464325 0.393385171890259 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 37 {
+    0.00247810990549624 0.124295003712177 1.57617998123169
+    <UV> { 0.50994998216629 0.393407464027405 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 38 {
+    -0.0407635010778904 0.0130612002685666 1.47642004489899
+    <UV> { 0.534220039844513 0.376814693212509 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 39 {
+    0.00265549006871879 0.042722400277853 1.47642004489899
+    <UV> { 0.510675311088562 0.3768350481987 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 40 {
+    -0.0407635010778904 0.0130612002685666 0.212620005011559
+    <UV> { 0.534211874008179 0.0787700489163399 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 41 {
+    0.00265551009215415 0.042722400277853 0.212620005011559
+    <UV> { 0.510667324066162 0.0787899047136307 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 42 {
+    -0.101173996925354 0.0346453003585339 0.137075006961823
+    <UV> { 0.535245776176453 0.0616706423461437 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 43 {
+    0.0045154900290072 0.106845997273922 0.137075006961823
+    <UV> { 0.509632408618927 0.0616929233074188 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 44 {
+    -0.101173996925354 0.0346453003585339 0.0363476015627384
+    <UV> { 0.535601437091827 0.038895957171917 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 45 {
+    0.0045154900290072 0.106845997273922 0.0363476015627384
+    <UV> { 0.509631752967834 0.0388958118855953 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 46 {
+    -0.0627423971891403 -0.081292100250721 1.73618996143341
+    <UV> { 0.561307370662689 0.417391270399094 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 47 {
+    -0.0760892033576965 -0.095600999891758 1.57617998123169
+    <UV> { 0.561306416988373 0.393363386392593 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 48 {
+    -0.0259712003171444 -0.0373984985053539 1.47642004489899
+    <UV> { 0.559767067432404 0.376792430877686 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 49 {
+    -0.0259712003171444 -0.0373984985053539 0.212620005011559
+    <UV> { 0.559758841991425 0.0787472799420357 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 50 {
+    -0.065166600048542 -0.0881820023059845 0.137075006961823
+    <UV> { 0.561891555786133 0.0616478733718395 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 51 {
+    -0.065166600048542 -0.0881820023059845 0.0363476015627384
+    <UV> { 0.56189101934433 0.038895957171917 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 52 {
+    0.0579249002039433 -0.0847921967506409 1.73618996143341
+    <UV> { 0.590585887432098 0.417366087436676 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 53 {
+    0.0681672990322113 -0.0997854024171829 1.57617998123169
+    <UV> { 0.590584933757782 0.393337696790695 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 54 {
+    0.0265899002552032 -0.0389230996370316 1.47642004489899
+    <UV> { 0.590584456920624 0.376765787601471 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 55 {
+    0.0265899002552032 -0.0389230996370316 0.212620005011559
+    <UV> { 0.590576231479645 0.0787206441164017 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 56 {
+    0.0627757981419563 -0.0918932035565376 0.137075006961823
+    <UV> { 0.590575754642487 0.0616226866841316 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 57 {
+    0.0627757981419563 -0.0918932035565376 0.0363476015627384
+    <UV> { 0.590575277805328 0.0388958118855953 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 58 {
+    -0.169092997908592 -0.351954996585846 0.065385602414608
+    <UV> { 0.992173969745636 0.0078125 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 59 {
+    -0.169092997908592 -0.351954996585846 -0.000632283976301551
+    <UV> { 0.992187976837158 0.0274081323295832 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 60 {
+    0.220255002379417 -0.322416007518768 0.065385602414608
+    <UV> { 0.915404856204987 0.00790796522051096 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 61 {
+    0.220255002379417 -0.322416007518768 -0.000632283976301551
+    <UV> { 0.915418922901154 0.0275037493556738 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 62 {
+    0.389349013566971 0.0295382998883724 0.065385602414608
+    <UV> { 0.838637232780457 0.00800123997032642 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 63 {
+    0.389349013566971 0.0295382998883724 -0.000632283976301551
+    <UV> { 0.838648855686188 0.0275968462228775 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 64 {
+    0.169092997908592 0.351954996585846 0.065385602414608
+    <UV> { 0.749995648860931 0.00806742068380117 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 65 {
+    0.169092997908592 0.351954996585846 -0.000632283976301551
+    <UV> { 0.75 0.0276628658175468 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 66 {
+    -0.220255002379417 0.322416007518768 0.065385602414608
+    <UV> { 0.673228979110718 0.00806726515293121 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 67 {
+    -0.220255002379417 0.322416007518768 -0.000632283976301551
+    <UV> { 0.673228979110718 0.0276624299585819 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 68 {
+    -0.389349013566971 -0.0295384991914034 0.065385602414608
+    <UV> { 0.59646087884903 0.0080666420981288 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 69 {
+    -0.389349013566971 -0.0295384991914034 -0.000632283976301551
+    <UV> { 0.596458971500397 0.0276622846722603 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 70 {
+    -0.169092997908592 -0.351954996585846 0.065385602414608
+    <UV> { 0.507812976837158 0.00803798995912075 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 71 {
+    -0.169092997908592 -0.351954996585846 -0.000632283976301551
+    <UV> { 0.507812976837158 0.0276333186775446 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 72 {
+    0.389349013566971 0.0295382998883724 0.065385602414608
+    <UV> { 0.863678455352783 0.277557551860809 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 73 {
+    0.169092997908592 0.351954996585846 0.065385602414608
+    <UV> { 0.945127606391907 0.277557075023651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 74 {
+    0.220255002379417 -0.322416007518768 0.065385602414608
+    <UV> { 0.822954177856445 0.369781583547592 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 75 {
+    -0.220255002379417 0.322416007518768 0.065385602414608
+    <UV> { 0.985851883888245 0.369781106710434 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 76 {
+    -0.169092997908592 -0.351954996585846 0.065385602414608
+    <UV> { 0.863678455352783 0.462005615234375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 77 {
+    -0.389349013566971 -0.0295384991914034 0.065385602414608
+    <UV> { 0.945127606391907 0.462005615234375 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 78 {
+    -0.480679988861084 -0.480679988861084 0.00512199988588691
+    <UV> { 0.308593988418579 0.515625 }
+    <RGBA> { 1 1 1 0.5 }
+  }
+  <Vertex> 79 {
+    0.480679988861084 -0.480679988861084 0.00512199988588691
+    <UV> { 0.542968988418579 0.515625 }
+    <RGBA> { 1 1 1 0.5 }
+  }
+  <Vertex> 80 {
+    -0.480679988861084 0.480679988861084 0.00512199988588691
+    <UV> { 0.308593988418579 0.984375 }
+    <RGBA> { 1 1 1 0.5 }
+  }
+  <Vertex> 81 {
+    0.480679988861084 0.480679988861084 0.00512199988588691
+    <UV> { 0.542968988418579 0.984375 }
+    <RGBA> { 1 1 1 0.5 }
+  }
+}
+<Group> {
+  <Group> torch_lampA {
+    <Group> torch_lampA {
+      <Group> torch_lampA {
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 0 1 2 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 3 4 5 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 6 7 0 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 0 7 1 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 8 9 3 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 3 9 4 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 10 11 12 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 12 11 13 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 12 13 14 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 14 13 15 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 14 15 16 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 16 15 17 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 16 17 18 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 18 17 19 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 18 19 20 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 20 19 21 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 22 23 24 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 24 23 25 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 24 25 26 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 26 25 27 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 26 27 28 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 28 27 29 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 28 29 30 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 30 29 31 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 30 31 32 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 32 31 33 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 34 35 36 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 36 35 37 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 36 37 38 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 38 37 39 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 38 39 40 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 40 39 41 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 40 41 42 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 42 41 43 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 42 43 44 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 44 43 45 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 46 34 47 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 47 34 36 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 47 36 48 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 48 36 38 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 48 38 49 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 49 38 40 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 49 40 50 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 50 40 42 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 50 42 51 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 51 42 44 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 52 46 53 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 53 46 47 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 53 47 54 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 54 47 48 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 54 48 55 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 55 48 49 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 55 49 56 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 56 49 50 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 56 50 57 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 57 50 51 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 23 52 25 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 25 52 53 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 25 53 27 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 27 53 54 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 27 54 29 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 29 54 55 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 29 55 31 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 31 55 56 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 31 56 33 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 33 56 57 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 58 59 60 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 60 59 61 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 60 61 62 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 62 61 63 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 62 63 64 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 64 63 65 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 64 65 66 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 66 65 67 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 66 67 68 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 68 67 69 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 68 69 70 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 70 69 71 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 72 73 74 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 74 73 75 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 74 75 76 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_3cmla_9 }
+          <VertexRef> { 76 75 77 <Ref> { LB_torch_lampA.egg } }
+        }
+      }
+      <Group> shadow {
+        <Scalar> alpha { dual }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_2tmla_1 }
+          <VertexRef> { 78 79 80 <Ref> { LB_torch_lampA.egg } }
+        }
+        <Polygon> {
+          <TRef> { lawbotHQ_palette_2tmla_1 }
+          <VertexRef> { 80 79 81 <Ref> { LB_torch_lampA.egg } }
+        }
+      }
+    }
+    <Group> collision {
+      <Group> collision {
+        <Collide> { Polyset descend }
+        <Scalar> collide-mask { 0x00000005 }
+        <VertexPool> vpool-collision {
+          <Vertex> 0 {
+            -0.0132851097732782 0.694311022758484 -0.0100098997354507
+            <Normal> { -0.584996700286865 0.811035633087158 -1.58000168504202e-09 }
+          }
+          <Vertex> 1 {
+            -0.645579040050507 0.238240003585815 -0.0100098997354507
+            <Normal> { -0.584996700286865 0.811035633087158 -1.58000168504202e-09 }
+          }
+          <Vertex> 2 {
+            -0.645579040050507 0.238240003585815 2.05658006668091
+            <Normal> { -0.584996700286865 0.811035633087158 -1.58000168504202e-09 }
+          }
+          <Vertex> 3 {
+            -0.0132851116359234 0.694311022758484 2.05658006668091
+            <Normal> { -0.584996700286865 0.811035633087158 -1.58000168504202e-09 }
+          }
+          <Vertex> 4 {
+            -0.645579040050507 0.238240033388138 -0.0100098997354507
+            <Normal> { -0.952114641666412 -0.305741399526596 4.42324088467672e-09 }
+          }
+          <Vertex> 5 {
+            -0.407219052314758 -0.504041016101837 -0.0100098997354507
+            <Normal> { -0.952114641666412 -0.305741399526596 4.42324088467672e-09 }
+          }
+          <Vertex> 6 {
+            -0.407219052314758 -0.504041016101837 2.05658006668091
+            <Normal> { -0.952114641666412 -0.305741399526596 4.42324088467672e-09 }
+          }
+          <Vertex> 7 {
+            -0.645579040050507 0.238240033388138 2.05658006668091
+            <Normal> { -0.952114641666412 -0.305741399526596 4.42324088467672e-09 }
+          }
+          <Vertex> 8 {
+            -0.407218992710114 -0.504041075706482 -0.0100098997354507
+            <Normal> { -0.00344275403767824 -0.999994099140167 1.78392145500084e-09 }
+          }
+          <Vertex> 9 {
+            0.372388988733292 -0.506725072860718 -0.0100098997354507
+            <Normal> { -0.00344275403767824 -0.999994099140167 1.78392145500084e-09 }
+          }
+          <Vertex> 10 {
+            0.372388988733292 -0.506725072860718 2.05658006668091
+            <Normal> { -0.00344275403767824 -0.999994099140167 1.78392145500084e-09 }
+          }
+          <Vertex> 11 {
+            -0.407218992710114 -0.504041075706482 2.05658006668091
+            <Normal> { -0.00344275403767824 -0.999994099140167 1.78392145500084e-09 }
+          }
+          <Vertex> 12 {
+            0.372389018535614 -0.506725013256073 -0.0100098997354507
+            <Normal> { 0.949986934661865 -0.31228968501091 -3.22799498242432e-09 }
+          }
+          <Vertex> 13 {
+            0.61585408449173 0.233897000551224 -0.0100098997354507
+            <Normal> { 0.949986934661865 -0.31228968501091 -3.22799498242432e-09 }
+          }
+          <Vertex> 14 {
+            0.61585408449173 0.233897000551224 2.05658006668091
+            <Normal> { 0.949986934661865 -0.31228968501091 -3.22799498242432e-09 }
+          }
+          <Vertex> 15 {
+            0.372389018535614 -0.506725013256073 2.05658006668091
+            <Normal> { 0.949986934661865 -0.31228968501091 -3.22799498242432e-09 }
+          }
+          <Vertex> 16 {
+            0.61585408449173 0.233897030353546 -0.0100098997354507
+            <Normal> { 0.590567052364349 0.806988537311554 1.81541309762778e-10 }
+          }
+          <Vertex> 17 {
+            -0.0132851023226976 0.694311082363129 -0.0100098997354507
+            <Normal> { 0.590567052364349 0.806988537311554 1.81541309762778e-10 }
+          }
+          <Vertex> 18 {
+            -0.0132851023226976 0.694311082363129 2.05658006668091
+            <Normal> { 0.590567052364349 0.806988537311554 1.81541309762778e-10 }
+          }
+          <Vertex> 19 {
+            0.61585408449173 0.233897030353546 2.05658006668091
+            <Normal> { 0.590567052364349 0.806988537311554 1.81541309762778e-10 }
+          }
+        }
+        <Polygon> {
+          <VertexRef> { 0 1 2 3 <Ref> { vpool-collision } }
+        }
+        <Polygon> {
+          <VertexRef> { 4 5 6 7 <Ref> { vpool-collision } }
+        }
+        <Polygon> {
+          <VertexRef> { 8 9 10 11 <Ref> { vpool-collision } }
+        }
+        <Polygon> {
+          <VertexRef> { 12 13 14 15 <Ref> { vpool-collision } }
+        }
+        <Polygon> {
+          <VertexRef> { 16 17 18 19 <Ref> { vpool-collision } }
+        }
+      }
+    }
+  }
+}

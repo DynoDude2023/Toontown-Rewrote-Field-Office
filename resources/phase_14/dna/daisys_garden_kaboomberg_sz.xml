@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene zone="14000">
+    <!-- Loop 1 -->
+    <store_suit_point id="1" type="STREET_POINT" x="39.699" y="72.289" z="0" />
+	<store_suit_point id="2" type="STREET_POINT" x="70.773" y="84.831" z="0" />
+	<store_suit_point id="3" type="STREET_POINT" x="80.447" y="52.798" z="0" />
+	<store_suit_point id="4" type="STREET_POINT" x="73.469" y="52.610" z="0" />
+	<store_suit_point id="5" type="STREET_POINT" x="67.608" y="70.328" z="0" />
+	<store_suit_point id="6" type="STREET_POINT" x="41.784" y="66.661" z="0" />
+	<!-- Loop 2 -->
+	<store_suit_point id="8" type="STREET_POINT" x="13.168" y="214.903" z="10.026" />
+	<store_suit_point id="9" type="STREET_POINT" x="42.137" y="210.512" z="10.025" />
+	<store_suit_point id="10" type="STREET_POINT" x="75.229" y="164.530" z="10.016" />
+	<store_suit_point id="11" type="STREET_POINT" x="71.120" y="159.542" z="10.016" />
+	<store_suit_point id="12" type="STREET_POINT" x="54.148" y="174.495" z="10.022" />
+	<store_suit_point id="13" type="STREET_POINT" x="40.985" y="200.671" z="10.025" />
+	<store_suit_point id="14" type="STREET_POINT" x="13.052" y="205.637" z="10.025" />
+	<!-- Loop 3 -->
+	<store_suit_point id="15" type="STREET_POINT" x="-84.044" y="105.392" z="0.025" />
+	<store_suit_point id="16" type="STREET_POINT" x="-93.122" y="104.114" z="0.025" />
+	<store_suit_point id="17" type="STREET_POINT" x="-94.200" y="126.562" z="0.025" />
+	<store_suit_point id="18" type="STREET_POINT" x="-77.166" y="147.082" z="0.025" />
+	<store_suit_point id="19" type="STREET_POINT" x="-59.287" y="158.384" z="10.025" />
+	<store_suit_point id="20" type="STREET_POINT" x="-52.099" y="165.580" z="10.025" />
+	<store_suit_point id="21" type="STREET_POINT" x="-43.202" y="182.335" z="0.025" />
+	<store_suit_point id="22" type="STREET_POINT" x="-33.276" y="182.552" z="0.025" />
+	<store_suit_point id="23" type="STREET_POINT" x="-10.955" y="194.887" z="0.025" />
+	<store_suit_point id="24" type="STREET_POINT" x="-10.461" y="185.165" z="0.025" />
+	<store_suit_point id="25" type="STREET_POINT" x="-34.341" y="177.942" z="0.025" />
+	<store_suit_point id="26" type="STREET_POINT" x="-42.426" y="159.350" z="0.025" />
+	<store_suit_point id="27" type="STREET_POINT" x="-41.657" y="147.777" z="0.025" />
+	<store_suit_point id="28" type="STREET_POINT" x="-73.764" y="137.115" z="0.025" />
+	<store_suit_point id="29" type="STREET_POINT" x="-88.739" y="128.837" z="0.025" />
+	<!-- Loop 4 -->
+	<store_suit_point id="30" type="STREET_POINT" x="21.659" y="17.397" z="0.025" />
+	<store_suit_point id="31" type="STREET_POINT" x="-3.707" y="18.832" z="0.025" />
+	<store_suit_point id="32" type="STREET_POINT" x="-6.126" y="35.175" z="0.025" />
+	<store_suit_point id="33" type="STREET_POINT" x="5.474" y="38.467" z="0.025" />
+	<store_suit_point id="34" type="STREET_POINT" x="1.006" y="50.490" z="0.025" />
+	<store_suit_point id="35" type="STREET_POINT" x="12.099" y="52.914" z="0.025" />
+	<store_suit_point id="36" type="STREET_POINT" x="18.938" y="30.312" z="0.025" />
+	<store_suit_point id="37" type="STREET_POINT" x="34.355" y="35.560" z="0.025" />
+	<store_suit_point id="38" type="STREET_POINT" x="38.138" y="28.787" z="0.025" />
+	<group name="daisysGarden">
+		<visgroup zone="0:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="8.478" y="46.098" z="0" />
+			<suit_edge a="33" b="34" />
+			<suit_edge a="34" b="35" />
+			<suit_edge a="35" b="36" />
+			<group name="props">
+                <prop name="kaboomberg_DNARoot" code="kaboomberg">
+                    <pos x="-0.16" y="0.130005" z="0" />
+                    <nhpr h="0" p="0" r="0" />
+                </prop>
+			</group>
+			<landmark_building id="tb2:toon_landmark_hqDG_DNARoot" code="toon_landmark_hqDG" type="hq">
+				<title>Toon HQ</title>
+				<!-- This is the DG ToonHQ position for reference -->
+				<!--<pos x="-45.9641" y="39.1958" z="0" />-->
+				<!--<nhpr h="-45" p="0" r="0" />-->
+				<pos x="-48.644" y="36.653" z="0" />
+				<nhpr h="-30" p="0" r="0" />
+				<prop name="animated_prop_HQPeriscopeAnimatedProp_DNARoot" code="animated_prop_HQPeriscopeAnimatedProp">
+					<pos x="7.17" y="3.17" z="20.07" />
+					<nhpr h="180" p="0" r="0" />
+					<scale x="4" y="4" z="4" />
+				</prop>
+			</landmark_building>
+            <prop name="prop_cogdo_sign_origin" code="DCS">
+                <pos x="-18" y="25" z="0.025" />
+                <nhpr h="325" p="0" r="0" />
+            </prop>
+		</visgroup>
+		<visgroup zone="1:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="19.913" y="24.451" z="0" />
+			<suit_edge a="36" b="37" />
+			<suit_edge a="37" b="38" />
+			<suit_edge a="38" b="30" />
+			<suit_edge a="30" b="31" />
+		</visgroup>
+		<visgroup zone="2:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="0.560" y="27.708" z="0" />
+			<suit_edge a="31" b="32" />
+			<suit_edge a="32" b="33" />
+		</visgroup>
+		<visgroup zone="3:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="68.734" y="76.218" z="0" />
+			<suit_edge a="1" b="2" />
+			<suit_edge a="2" b="3" />
+			<suit_edge a="3" b="4" />
+			<suit_edge a="4" b="5" />
+			<suit_edge a="5" b="6" />
+			<suit_edge a="6" b="1" />
+		</visgroup>
+		<visgroup zone="4:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="61.729" y="175.059" z="10.017" />
+			<suit_edge a="9" b="10" />
+			<suit_edge a="10" b="11" />
+			<suit_edge a="11" b="12" />
+			<suit_edge a="12" b="13" />
+		</visgroup>
+		<visgroup zone="5:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="26.717" y="208.805" z="10.025" />
+			<suit_edge a="8" b="9" />
+			<suit_edge a="13" b="14" />
+			<suit_edge a="14" b="8" />
+		</visgroup>
+		<visgroup zone="6:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="-91.831" y="114.687" z="0.025" />
+			<suit_edge a="29" b="15" />
+			<suit_edge a="15" b="16" />
+			<suit_edge a="16" b="17" />
+			<suit_edge a="17" b="18" />
+		</visgroup>
+		<visgroup zone="7:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<battle_cell width="20" height="20" x="-17.637" y="187.298" z="0.025" />
+			<suit_edge a="21" b="22" />
+			<suit_edge a="22" b="23" />
+			<suit_edge a="23" b="24" />
+			<suit_edge a="24" b="25" />
+			<suit_edge a="25" b="26" />
+		</visgroup>
+		<!-- No Battles accepted in this visgroup -->
+		<visgroup zone="8:kaboomberg" vis="0 1 2 3 4 5 6 7 8">
+			<suit_edge a="18" b="19" />
+			<suit_edge a="19" b="20" />
+			<suit_edge a="20" b="21" />
+			<suit_edge a="26" b="27" />
+			<suit_edge a="27" b="28" />
+			<suit_edge a="28" b="29" />
+		</visgroup>
+	</group>
+</scene>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<storage scope="global">
+	<model path="phase_6/models/cogHQ/Cog_Tunnel" scope="place">
+		<store_node root="prop" code="prop_cog_tunnel" node="" />
+	</model>
+
+	<model path="phase_6/models/cogHQ/SmokeStack_simple" scope="place">
+		<store_node root="prop" code="prop_cog_smoke_stack" node="" />
+	</model>
+
+	<model path="phase_6/models/cogHQ/WaterTowerSimple" scope="place">
+		<store_node root="prop" code="prop_cog_water_tower" node="" />
+	</model>
+
+	<model path="phase_9/models/cogHQ/FactoryGearB" scope="place">
+		<store_node root="prop" code="prop_cog_gear" node="" />
+	</model>
+
+	<model path="phase_9/models/cogHQ/metal_crateB" scope="place">
+		<store_node root="prop" code="prop_cog_box" node="" />
+	</model>
+
+	<model path="phase_10/models/cashbotHQ/CBWoodCrate" scope="place">
+		<store_node root="prop" code="prop_cog_crate" node="" />
+	</model>
+
+	<model path="phase_10/models/cashbotHQ/pipes_A1" scope="place">
+		<store_node root="prop" code="prop_cog_pillar" node="" />
+	</model>
+
+	<model path="phase_10/models/cashbotHQ/pipes_C" scope="place">
+		<store_node root="prop" code="prop_cog_pipes" node="" />
+	</model>
+
+	<model path="phase_10/models/cashbotHQ/gears_A1" scope="place">
+		<store_node root="prop" code="prop_cog_gear_stack" node="" />
+	</model>
+
+	<model path="phase_10/models/cashbotHQ/gears_B1" scope="place">
+		<store_node root="prop" code="prop_cog_gear_pillar" node="" />
+	</model>
+</storage>
